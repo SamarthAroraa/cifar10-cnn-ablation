@@ -80,6 +80,12 @@ Dropout follows an inverted-U curve for this architecture. The peak is around 0.
 ![Dropout sweep — validation loss](charts/dropout-expts-val_loss.png)
 ![Dropout sweep — validation accuracy](charts/dropour-val_acc.png)
 
+## What the Model Sees
+
+Using Grad-CAM on the last convolutional layer, we can visualize where the model focuses its attention when classifying each image. The top row shows the original image, the middle row shows the raw heatmap of activations, and the bottom row overlays the heatmap on the image. The model learns to look at object-specific regions — body shapes for animals, flat surfaces for vehicles — rather than background clutter, which is a good sign that it's learning meaningful features and not just memorizing texture shortcuts.
+
+![Grad-CAM attention heatmaps](assets/grad_cam.png)
+
 ## What's Next
 
 - Data augmentation (RandomCrop, HorizontalFlip, ColorJitter)
