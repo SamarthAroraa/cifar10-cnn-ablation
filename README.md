@@ -40,6 +40,44 @@ batch_size = 64
 
 Experiments tracked with [Weights & Biases](https://wandb.ai) under project [`cifar10-cnn-study`](https://wandb.ai/samartharora176-/cifar10-cnn-study).
 
+## Charts
+
+### Overview (all experiments)
+
+![All experiments — training loss](charts/all-train-loss.png)
+![All experiments — validation loss](charts/all-expt-val_loss.png)
+![All experiments — validation accuracy](charts/all-val_acc.png)
+
+### Scheduler sweep
+
+![Scheduler sweep — training loss](charts/sched-train_loss.png)
+![Scheduler sweep — validation loss](charts/sched-val_loss.png)
+![Scheduler sweep — validation accuracy](charts/sched-val_acc.png)
+
+### Filter width sweep
+
+![Filter width sweep — training loss](charts/filter-w-train_loss.png)
+![Filter width sweep — validation loss](charts/filter-w-val_loss.png)
+![Filter width sweep — validation accuracy](charts/filter-w-val_acc.png)
+
+### Depth sweep
+
+![Depth sweep — training loss](charts/depth-train_loss.png)
+![Depth sweep — validation loss](charts/depth-val_loss.png)
+![Depth sweep — validation accuracy](charts/depth-val_acc.png)
+
+### Kernel size sweep
+
+![Kernel size sweep — training loss](charts/kernel-train_loss.png)
+![Kernel size sweep — validation loss](charts/kernel-val_loss.png)
+![Kernel size sweep — validation accuracy](charts/kernel-val_acc.png)
+
+### Dropout sweep
+
+![Dropout sweep — training loss](charts/dropout-training_loss.png)
+![Dropout sweep — validation loss](charts/dropout-expts-val_loss.png)
+![Dropout sweep — validation accuracy](charts/dropour-val_acc.png)
+
 ## Setup
 
 ```bash
