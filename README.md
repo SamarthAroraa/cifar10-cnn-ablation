@@ -38,7 +38,7 @@ batch_size = 64
 
 ## Tracking
 
-Experiments tracked with [Weights & Biases](https://wandb.ai) under project `cifar10-cnn-study`.
+Experiments tracked with [Weights & Biases](https://wandb.ai) under project [`cifar10-cnn-study`](https://wandb.ai/samartharora176-/cifar10-cnn-study).
 
 ## Setup
 
