@@ -1,0 +1,19 @@
+# Dataset
+data/
+
+# Weights & Biases
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
